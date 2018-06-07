@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-      <h2>{{ msg }}</h2>
+      <h3>{{ msg }}</h3>
     <p>
       For guide and recipes on how to configure / customize this project,<br>
       check out the
@@ -30,12 +30,12 @@
 </template>
 
 <script>
-export default {
-  name: 'HelloWorld',
-  props: {
-    msg: String
-  }
-}
+    export default {
+        name: 'HelloWorld',
+        props: {
+            msg: String
+        }
+    }
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
