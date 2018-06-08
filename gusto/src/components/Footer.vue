@@ -72,7 +72,7 @@
         text-align: left;
         font: bold 16px sans-serif;
 
-        padding: 55px 50px;
+        padding: 35px 50px;
         margin-top: 80px;
     }
 
