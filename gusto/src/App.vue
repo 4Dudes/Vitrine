@@ -22,6 +22,8 @@
             button="Il en reste ? Fais ton ricains et demande un takeway !"
             orientation="left"
     />
+    <HelloWorld msg="Que bella...!"/>
+    <Footer/>
   </div>
 </template>
 
@@ -29,13 +31,15 @@
     import HelloWorld from './components/HelloWorld.vue'
     import Header from './components/Header.vue'
     import PhotoTextSection from './components/PhotoTextSection.vue'
+    import Footer from './components/Footer.vue'
 
     export default {
         name: 'app',
         components: {
             Header,
             HelloWorld,
-            PhotoTextSection
+            PhotoTextSection,
+            Footer,
         }
     }
 </script>
